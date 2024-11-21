@@ -1,0 +1,19 @@
+{
+    "browser-title": "Photo Project - Morawa",
+    "title": "Photo Project",
+
+    "h-intro": "What is this website for?",
+    "intro": "In May 2024, my class participated in a trip to Poland. During this trip, we conducted the project \"Mathematics in Focus,\" for which we were to create a website as a school assignment.",
+
+    "h-info": "Mathematics in Focus",
+    "info": "<a href=\"https://mwo.usz.edu.pl/\">Mathematics in Focus</a> is a project by the University of Szczecin, which has been held internationally every year since 2010. The aim of this project is to take photos with a mathematical context. The winning photos are rewarded with prizes and may be featured in exhibitions.",
+
+    "h-math": "Recursion",
+    "math": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ",
+
+    "h-morawa": "Morawa Castle",
+    "morawa": "Morawa Castle is a neoclassical manor house near Strzegom in Poland. The owners abandoned it during World War II, leaving it vacant for a long time.<br><br>In 1992, Melitta Sallai, the daughter of the original owner, returned to restore it. It was her late mother's wish that something come of the place. Today, it houses a kindergarten, a restaurant, and serves as a German-Polish meeting point.",
+
+    "h-travel": "Getting There <small><a href=\"https://www.openstreetmap.org/way/223775978\">click here</a></small>",
+    "travel": "<b>By car:</b><br>From Wrocław: Follow the A4 to the Strzegom exit, then follow the signs to Morawa.<br><br>From Jelenia Góra: Take the DK5 towards Strzegom and follow the signs to Morawa.<br><br>Parking is available on-site.<br><br><b>By public transport:</b><br>Take the train to Strzegom station, from there it is about 10 minutes by taxi."
+}

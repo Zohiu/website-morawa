@@ -1,0 +1,43 @@
+:root {
+    --background-image: url("../assets/castle-night.jpg");
+    --background-color: rgba(0, 0, 0, 0.5);
+    --nav-background-color: rgba(18, 14, 25, 1);
+    --nav-text-color: white;
+    --object-color: rgba(0, 0, 0, 0.6);
+    --heading-color: white;
+    --text-color: white;
+    --clear: black;
+}
+[data-theme="light"] {
+    --background-image: url("../assets/castle-day.jpg");
+    --background-color: rgba(255, 255, 255, 0.5);
+    --nav-background-color: rgba(255, 255, 255, 1);
+    --nav-text-color: black;
+    --object-color: rgba(255, 255, 255, 0.6);
+    --heading-color: black;
+    --text-color: black; 
+    --clear: white; 
+}
+
+/* Invert icons */
+
+#mode-button:hover .ico {
+    filter: invert(100%);
+}
+
+.ico {
+    filter: invert(0%);
+}
+
+
+#mode-button:hover .ico-alt {
+    filter: invert(0%);
+}
+
+.ico-alt {
+    filter: invert(100%);
+}
+
+.loading-spinner-alt {
+    filter: invert(100%);
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheets/colors.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="stylesheet" href="stylesheets/style-mobile.css">
+    
+        <title id="browser-title"></title>
+    </head>
+
+    <body>
+        <div id="loading" class="loading">
+            <img alt="loading" id="loading-spinner" src="assets/loading.svg" />
+        </div>
+        <header>
+            <nav>
+                <div class="links">
+                    <p>Name</p>
+                </div>
+
+                <div class="buttons">
+                    <button id="mode-button">
+                        <img alt="Hell/Dunkel Icon" class="ico" id="mode-icon" src="assets/day-and-night-icon.png" />
+                    </button>
+                    <button id="lang-button">English</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="start" class="header">
+                <h1 class="logo" id="title">Fotoprojekt</h1>
+                <img alt="Hell/Dunkel Icon" class="start-img" id="mode-icon" src="assets/Morawa_Website-2.png" />
+            </section>
+
+            <section id="introduction">
+                <div class="box object opacity blur nofade">
+                    <img alt="Eine Tür im Schloss" class="img" src="assets/inside.jpg"/>
+                    <div>
+                        <h2 id="h-intro">Wofür ist diese Website?</h2>
+                        <p id="intro">In Mai 2024 hat meine Schulklasse an einer Fahrt nach Polen teilgenommen. Im Laufe dieser Fahrt haben wir das Projekt \"Mathematik im Objektiv\" durchgeführt, wozu wir als Unterrichtsleistung eine Website gestalten sollten.</p>
+                    </div>
+                    
+                </div>
+                <div class="box">
+                    <div>
+                        <h2 id="h-info">Mathematik im Objektiv</h2>
+                        <p id="info"><a href="https://mwo.usz.edu.pl/">Matematyka w Obiektywie</a> ist ein Projekt der Universität von Stettin, welches schon seit 2010 jährlich international durchgeführt wird. Das Ziel dieses Projektes ist es, Fotos mit einem mathematischem Kontext zu machen. Die Gewinnerfotos werden mit Preisen belohnt und eventuell in Ausstellungen vorkommen.</p>
+                    </div>
+                    <img alt="Ein Gebäude mit vielen Winkeln" class="img object opacity blur nofade" src="assets/building.jpg"/>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <div class="gallery-grid">
+                    <img alt="Teich mit Schloss Morawa im Hintergrund" class="object img gallery-img opacity blur rotate glide left" src="assets/pond.jpg"/>
+                    <img alt="Ein verwachsenes Haus" class="object img gallery-img opacity blur rotate glide right" src="assets/house.jpg"/>
+
+                    <img alt="Sonnenuntergang vor Schloss Morawa" class="object img gallery-img opacity blur glide left" src="assets/sunset.jpg"/>
+                    <img alt="Rekursion" class="object img gallery-img opacity blur glide right" src="assets/recursion-2.jpg"/>
+                </div>
+                <img alt="Eine Schnecke im Gras" class="object img main-img opacity blur scale" src="assets/snail.jpg"/>
+            </section>
+
+            <section id="math-explained">
+                <img alt="Rekursion" class="object img main-img opacity blur scale nofade" src="assets/recursion-1.jpg"/>
+                <div class="box">
+                    <img alt="Rekursion" class="object img opacity blur scale nofade" src="assets/recursion-3.jpg"/>
+                    <div>
+                        <h2 id="h-math">Rekursion</h2>
+                        <p id="math">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="location">
+                <div class="box">
+                    <div>
+                        <h2 id="h-morawa">Schloss Morawa</h2>
+                        <p id="morawa">Schloss Morawa ist ein neoklassizistisches Herrenhaus nahe Strzegom in Polen. Die Inhaber haben es im 2. Weltkrieg verlassen, weshalb es eine lange Zeit leer stand.<br><br>1992 kehrte Melitta Sallai, die Tochter des ursprünglichen Inhabers, zurück, um es restaurieren zu lassen. Es war der Wunsch ihrer verstorbenen Mutter, dass etwas aus dem Ort entsteht. Heute befindet sich dort ein Kindergarten, ein Restaurant und der Standort wird als Deutsch-polnischer Treffpunkt verwendet.</p>
+                    </div>
+                    <img alt="Schloss Morawa von weitem" class="img object opacity blur nofade" src="assets/castle-far.jpg"/>
+                </div>
+
+                <div class="box">
+                    
+                    <iframe class="object opacity blur nofade" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=16.39580%2C50.96610%2C16.39580%2C50.96610&amp;layer=mapnik&amp;marker=50.96610%2C16.39580" style="border: 1px solid black">
+                    </iframe>
+                    <div>
+                        <h2 id="h-travel">Anfahrt <small><a href="https://www.openstreetmap.org/way/223775978">hier klicken</a></small></h2>
+                        <p id="travel">
+                            <b>Mit dem Auto:</b><br>Aus Richtung Breslau: Folgen Sie der A4 bis zur Ausfahrt Strzegom, dann der Beschilderung nach Morawa.<br><br>Aus Richtung Hirschberg: Fahren Sie auf der DK5 Richtung Strzegom und folgen Sie den Schildern nach Morawa.<br><br>Parkplätze sind vor Ort vorhanden.<br><br><b>Mit öffentlichen Verkehrsmitteln:</b><br>Fahren Sie bis zum Bahnhof Strzegom, von dort sind es etwa 10 Minuten mit dem Taxi.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script sync src="js/theme.js"></script>
+        <script sync src="js/transitions.js"></script>
+        <script sync src="js/language.js"></script>
+    </body>
+</html>

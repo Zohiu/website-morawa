@@ -1,0 +1,236 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Crete Round'; /*a name to be used later*/
+    src: url('../fonts/CreteRound-Regular.ttf'); /*URL to font*/
+}
+
+/* Base stuff */
+
+body {
+    font-family: "Crete Round", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-top: 0px;
+    margin-top: 0px;
+
+    transition: background 1s;
+    color-scheme: light dark;
+}
+
+main {
+    background-color: var(--background-color);
+    backdrop-filter: blur(10px);
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--heading-color);
+    padding: 50px;
+    padding-top: 50px;
+    max-width: 110vh;
+
+    border-radius: 20px;
+
+    transition: background 1s;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+/* Header section */
+
+.header {
+    margin-top: 20px;
+    min-height: 100vh;
+    display: grid;
+    transition: 1s;
+}
+
+/* Box & Text formatting */
+
+p, h2, h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h2 {
+    text-align: left;
+}
+
+.box {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: max-content;
+    background-color: var(--object-color);
+    color: var(--text-color);
+    width: 100%;
+    border-radius: 20px;
+    padding: 0px;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vertical {
+    grid-template-columns: 1fr;
+}
+
+.left {
+    justify-self: left;
+}
+
+.right {
+    justify-self: right;
+}
+
+/* Images */
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+.start-img {
+    width: 100%;
+}
+.main-img {
+    height: 100%;
+}
+.gallery-img {
+    height: 30vh;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-bottom: 50px;
+}
+
+/* Map */
+
+iframe {
+    border-radius: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Navigation bar */
+
+.logo {
+    text-align: center;
+    font-size: 24pt;
+}
+
+nav {
+    position: fixed;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    padding-left: 10px;
+    padding-right: 25px;
+    top: 0px;
+    left: 0px;
+    min-width: 100vw;
+    max-width: 100vw;
+    background-color: var(--nav-background-color);
+    color: var(--nav-text-color);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.buttons {
+    justify-self: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    justify-self: left;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Language select button */
+
+#lang-button {
+    justify-self: right;
+    margin: 5px;
+    max-width: 60px;
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
+    color: var(--nav-text-color);;
+    border-style: none;
+    transition-duration: 0.3s;
+}
+
+/* Mode select button */
+
+#mode-button {
+    justify-self: right;
+    margin: 5px;
+    max-width: 60px;
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
+    color: var(--nav-text-color);
+    border-style: none;
+    transition-duration: 0.3s;
+}
+
+#mode-button:hover {
+    background-color: var(--nav-text-color);
+    color: var(--nav-background-color);
+}
+
+.ico {
+    height: 100%;
+    transition-duration: 0.3s;
+    justify-self: center;
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Loading screen */
+
+.loading {
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--clear);
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition-duration: 1s;
+    backdrop-filter: blur(10px);
+}
+
+.loading-spinner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vw;
+}
+
